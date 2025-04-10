@@ -10,7 +10,13 @@
 </head>
 <body>
     <div class="video">
-        <video src="./assets/video/running.mp4" autoplay loop muted></video>
+    <video 
+  src="./assets/video/running.mp4" 
+  autoplay 
+  loop 
+  muted 
+  style="width: 100%; max-width: 1366px; height: 150vh; display: block; margin: 0 auto; object-fit: cover;">
+</video>
     </div>
     <header>
         <?php include "./modulos/navbar.php"; ?>
@@ -35,6 +41,25 @@
                         <option value="4">UNET</option>
                         <option value="5">UPTAI</option>
                         <option value="6">UBA</option>
+                        <option value="7">CANTV</option>
+                        <option value="8">GNB</option>
+                        <option value="9">RPG (Regimiento Guardia del Pueblo)</option>
+                        <option value="10">REDI</option>
+                        <option value="11">ZODI</option>
+                        <option value="12">DSU (Destacamento Seguridad Urbana)</option>
+                        <option value="13">ASC (Alcaldia)</option>
+                        <option value="14">CL (Consejo Legislativo)</option>
+                        <option value="15">BOMB</option>
+                        <option value="16">PC (Proteccion Civil)</option>
+                        <option value="17">PT (Politachira)</option>
+                        <option value="18">PNB</option>
+                        <option value="19">LT (Loteria del Tachira)</option>
+                        <option value="20">VNET</option>
+                        <option value="21">DLP (Distribuidor las Palmeras)</option>
+                        <option value="22">MA (Min. Aguas)</option>
+                        <option value="23">CS (Ciro Sanchez)</option>
+                        <option value="24">MM (Multi Max)</option>
+                        <option value="25">DAKA</option>
                     </select>
                 </div>
             </div>
@@ -91,7 +116,7 @@
                             <select id="type" class="form-select" name="cargo1">
                                 <option value="1">Estudiante</option>
                                 <option value="2">Profesor</option>
-                                <option value="3">Personal</option>
+                                <option value="3">Invitado Especial</option>
                             </select>
                         </div>
                     </div>
@@ -142,13 +167,13 @@
                     </div>
                     <div class="row ">
                         <div class="col-sm-12 col-lg-2 text-center">
-                            <label for="categoria2" class="form-label">Categoria:</label>
+                            <label for="categoria1" class="form-label">Categoria:</label>
                         </div>
                         <div class="col-sm-12 col-lg-10">
                             <select id="type" class="form-select" name="cargo2">
                                 <option value="1">Estudiante</option>
                                 <option value="2">Profesor</option>
-                                <option value="3">Personal</option>
+                                <option value="3">Invitado Especial</option>
                             </select>
                         </div>
                     </div>
