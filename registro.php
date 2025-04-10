@@ -174,7 +174,6 @@
                                 <option value="1">Estudiante</option>
                                 <option value="2">Profesor</option>
                                 <option value="3">Invitado Especial</option>
-                                <option value="4">Invitado Especial</option>
                             </select>
                         </div>
                     </div>
